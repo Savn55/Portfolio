@@ -1,0 +1,72 @@
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/heroImage3.jpg');
+    background-size:cover;
+    position:relative;
+}
+
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+    font-style: unset;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.font-style {
+    font-weight: 500;
+    font-family: Tahoma;
+    font-variant: unset;
+}
+
+#skills{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(247, 246, 198);
+}
+
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+.card-img-top {
+    float: left;
+    width:  100px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover, .fa-github:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
